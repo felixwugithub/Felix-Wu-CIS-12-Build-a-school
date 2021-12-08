@@ -67,14 +67,14 @@ public class School {
     public void printTeachers(){
         System.out.println("Teachers:");
         for (Teacher teacher: teachers) {
-            System.out.println(teacher.getLastname() + ", " + teacher.getFirstname()+ " -- Subject: " + teacher.getSubject() + " -- Email: " + teacher.getEmail());
+            System.out.println(teacher.toString());
         }
     }
 
     public void printStudents(){
-        System.out.println("Students");
+        System.out.println("Students:");
         for (Student student: students) {
-            System.out.println("ID: " + student.getStudentID() + " -- " + student.getLastname() + ", " + student.getFirstname() + " -- Grade: " + student.getGradeBookAverage());
+            System.out.println(student.toString());
         }
     }
 

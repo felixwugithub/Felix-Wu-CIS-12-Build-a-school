@@ -39,6 +39,11 @@ public class Student {
     public void setLastname(String newLastname){lastname = newLastname;}
     public void setGradeBookAverage(int newGradeBookAverage){gradeBookAverage = newGradeBookAverage;}
 
+    //toString
+    public String toString(){
+        return("Name: " + lastname + ", " + firstname + " -|- StudentID: " + studentID + " -|- Grade Book Average: " + gradeBookAverage);
+    }
+
 
 
 }
